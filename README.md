@@ -1,7 +1,3 @@
-Here's a README file for your German text sentiment classification project:
-
----
-
 # German Text Sentiment Classification
 
 ## Overview
