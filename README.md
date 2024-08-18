@@ -21,7 +21,6 @@ The dataset used for this project is the SB10K dataset. It can be downloaded fro
 - `SentimentDataset`: A custom dataset class for loading and processing the SB10K data.
 - `SimpleBERTModel`: A custom BERT model for sentiment classification.
 - `SimpleRoBERTaModel`: A custom RoBERTa model for sentiment classification.
-- `train.py`: Contains the training and evaluation functions.
 
 ## Requirements
 
@@ -36,9 +35,6 @@ You can install the required packages using:
 pip install torch transformers pandas scikit-learn
 ```
 
-## Training and Evaluation
-
-1. **Prepare the Data**: Place your training and test CSV files in the appropriate directory. The expected file format is CSV with the text in the first column and the sentiment label in the second column.
 
 2. **Run the Training**: Execute the `train.py` script to start the training process. This script trains both the BERT and RoBERTa models and evaluates their performance on the test set.
 
